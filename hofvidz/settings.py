@@ -26,7 +26,7 @@ SECRET_KEY = '8o&!ns-9xa!oz421!-e+5v25ez@^c*4s-r(%59_rz386f3q6zr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['halloffame-rg.herokuapp.com']
 
 LOGIN_URL ='login'
 LOGIN_REDIRECT_URL = 'home'
