@@ -12,7 +12,7 @@ import urllib
 import requests
 from django.forms.utils import ErrorList
 
-YOUTUBE_API_KEY = 'AIzaSyA1fmXXmgXNd0x3k0jQEO7yz9bGon9mVUQ'
+YOUTUBE_API_KEY = ''
 
 def home(request):
     recent_hall = Hall.objects.all().order_by('-id')[:3]
